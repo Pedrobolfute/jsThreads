@@ -1,18 +1,32 @@
-<!--index.html-->
-
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>JsThreads</title>
-  </head>
-  <body>
-    <h1>Hi, I am Pedro!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
+<html lang="en">
 
-    <script src="./renderer.js"></script>
-  </body>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./src/assets/css/global.css">
+   <link rel="stylesheet" href="./src/assets/css/style.css">
+   <link rel="shortcut icon" href="./build/icon.png">
+   <title>Threads</title>
+</head>
+
+<body>
+   <header>
+      <h1>Threads</h1>
+      <p>We are using Node.js <span id="node-version"></span></p>
+      <p>Chromium <span id="chrome-version"></span></p>
+      <p>and Electron <span id="electron-version"></span></p>
+   </header>
+   <div class="container">
+      <div class="left">Left side</div>
+      <div class="right">Right side</div>
+   </div>
+   <footer>
+      <h1>RAM</h1>
+      <div class="ram"></div>
+   </footer>
+   <script src="./renderer.js"></script>
+   <script src="./src/assets/js/ramMemory.js"></script>
+</body>
+
 </html>
