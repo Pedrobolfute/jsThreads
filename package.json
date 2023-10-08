@@ -1,0 +1,29 @@
+{
+  "name": "jsthreads",
+  "version": "1.0.0",
+  "description": "Threads and process emulation viewer",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pedrobolfute/jsThreads.git"
+  },
+  "keywords": [
+    "threads",
+    "process",
+    "viwer",
+    "emulation"
+  ],
+  "author": "pedrobolfute",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pedrobolfute/jsThreads/issues"
+  },
+  "homepage": "https://github.com/Pedrobolfute/jsThreads#readme",
+  "devDependencies": {
+    "electron": "^26.3.0"
+  }
+}
